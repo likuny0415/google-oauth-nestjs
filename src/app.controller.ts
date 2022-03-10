@@ -15,4 +15,12 @@ export class AppController {
   googleAuthRedirect(@Req() req) {
     return this.appService.googleLogin(req)
   }
+
+  @Get("xx") 
+  async xx() {
+    return {
+      "text":213213123123,
+      "please": "wrik"
+    }
+  }
 }
